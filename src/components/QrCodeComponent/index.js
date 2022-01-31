@@ -2,14 +2,14 @@ import React from "react";
 import './style.css'
 import ImgQrCode from './images/image-qr-code.png'
 
-export default () => {
+ const qrCodeComponent = () => {
   return (
     <>
 
         
         <div className="card-qrcode">
 
-          <img src={ImgQrCode}></img>
+          <img src={ImgQrCode} alt="QR Code Image"></img>
 
           <div className="info">
             <h1>Improve your front-end skills by building projects</h1>
@@ -21,3 +21,5 @@ export default () => {
     </>
   )
 }
+
+export default qrCodeComponent
