@@ -9,7 +9,7 @@ import ImgQrCode from './images/image-qr-code.png'
         
         <div className="card-qrcode">
 
-          <img src={ImgQrCode} alt="QR Code Image"></img>
+          <img src={ImgQrCode} alt="QR Code"></img>
 
           <div className="info">
             <h1>Improve your front-end skills by building projects</h1>
